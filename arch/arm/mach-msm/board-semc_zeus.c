@@ -115,7 +115,11 @@
 #define MSM_FB_SIZE		0x500000
 #define MSM_GPU_PHYS_SIZE       SZ_4M
 #define MSM_PMEM_CAMERA_SIZE    0x0000000
-#define MSM_PMEM_ADSP_SIZE      0x3800000
+/* 720p Recording */
+/* #define MSM_PMEM_ADSP_SIZE      0x3800000 */
+///////////////////////////////////////////////
+/* 480p Recording */
+#define MSM_PMEM_ADSP_SIZE      0x1700000
 #define PMEM_KERNEL_EBI1_SIZE   0x600000
 #define MSM_PMEM_AUDIO_SIZE     0x200000
 
